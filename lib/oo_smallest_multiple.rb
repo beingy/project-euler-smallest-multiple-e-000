@@ -3,8 +3,15 @@ class SmallestMultiple
   def initialize(number)
     @number = number
   end
-  
+
+#  def lcm
+#    (1..@number).reduce(:lcm)
+#  end
+
   def lcm
-    (1..@number).reduce(:lcm)
+
   end
+
 end
+
+#SmallestMultiple.new(10).lcm
